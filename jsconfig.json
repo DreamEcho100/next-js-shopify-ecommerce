@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"paths": {
+			"@frameworks/*": ["frameworks/*"],
 			"@components/*": ["components/*"],
 			"@hoc/*": ["hoc/*"],
 			"@hooks/*": ["hooks/*"],
