@@ -2,7 +2,10 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"paths": {
-			"@frameworks/*": ["frameworks/*"],
+			"@common": ["frameworks/common"],
+			"@common/*": ["frameworks/common/*"],
+			"@frameworks": ["frameworks/shopify"],
+			"@frameworks/*": ["frameworks/shopify/*"],
 			"@components/*": ["components/*"],
 			"@hoc/*": ["hoc/*"],
 			"@hooks/*": ["hooks/*"],

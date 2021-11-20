@@ -6,13 +6,13 @@ import type {
 
 import styles from '@styles/Home.module.css';
 
-import { getAllProducts } from '@frameworks/shopify/product/get-all-products';
+import getAllProducts from '@frameworks/product/get-all-products';
 
 const Home = ({ products }: InferGetStaticPropsType<typeof getStaticProps>) => {
 	return (
 		<div className={styles.container}>
 			<h2>!</h2>
-			<p>{products[0]}</p>
+			<p>{JSON.stringify(products)}</p>
 		</div>
 	);
 };
